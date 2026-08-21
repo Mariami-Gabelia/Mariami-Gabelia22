@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მარიამ გაბელია - Frontend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">Mariam.Dev</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn-hire">Hire Me</a>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="greeting">Hi I am</p>
+                <h1>მარიამ გაბელია</h1>
+                <h2 class="profession">Frontend & React Developer (16 წლის)</h2>
+                <p class="hero-desc">ვარ დამწყები ფრონტენდ დეველოპერი. კარგად ვფლობ ინგლისურ და რუსულ ენებს. გავლილი მაქვს ვებ და მობილური აპლიკაციების დეველოპმენტის სრული კურსი.</p>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="slider-container">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Mariam 1" class="hero-slide active">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Mariam 2" class="hero-slide">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135823.png" alt="Mariam 3" class="hero-slide">
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/Mariami-Gabelia" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="about-img">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png" alt="About Me">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>მიზანსწრაფული 16 წლის დეველოპერი. ჩემი ცოდნა მოიცავს: HTML5/CSS3, Flexbox, Grid, JavaScript, DOM მანიპულაციებს, REST API-ს და React/React Native-ის გამოყენებით აპლიკაციების აწყობას.</p>
+                <div class="skills" id="skills-section">
+                    <div class="skill-box">
+                        <span class="skill-title">HTML & CSS (Flexbox, Grid)</span>
+                        <div class="progress-line"><div class="progress" data-width="95%"></div></div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="skill-title">JavaScript & DOM</span>
+                        <div class="progress-line"><div class="progress" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="skill-title">React.js Web Apps</span>
+                        <div class="progress-line"><div class="progress" data-width="80%"></div></div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="skill-title">React Native Mobile</span>
+                        <div class="progress-line"><div class="progress" data-width="75%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>სემანტიკური და რესფონსივი ვებ-გვერდების აწყობა.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-atom"></i>
+                    <h3>React.js Apps</h3>
+                    <p>დინამიკური ვებ აპლიკაციების შექმნა React.js-ით.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h3>React Native Mobile</h3>
+                    <p>მობილური აპლიკაციების შემუშავება iOS/Android-ისთვის.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-code-branch"></i>
+                    <h3>Git & GitHub</h3>
+                    <p>ვერსიების კონტროლი და რეპოზიტორიების მართვა.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="react">React App</button>
+                <button class="filter-btn" data-filter="mobile">Mobile App</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Project">
+                    <h3>Landing Page Design</h3>
+                </div>
+                <div class="project-card" data-category="react">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Project">
+                    <h3>React Web App</h3>
+                </div>
+                <div class="project-card" data-category="mobile">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80" alt="Project">
+                    <h3>Mobile Dashboard</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial-slider-wrapper">
+                <div class="testimonial-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="User" id="test-img">
+                    <p id="test-text">"მარიამი არის ძალიან ნიჭიერი და მიზანსწრაფული სტუდენტი."</p>
+                    <h4 id="test-name">ლექტორი</h4>
+                    <span id="test-role">Smart Academy</span>
+                </div>
+                <div class="testimonial-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                    <button class="dot" data-slide="3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-row">
+                    <input type="text" id="name" placeholder="Enter Your Name" required>
+                    <input type="email" id="email" placeholder="Enter Your Email" required>
+                    <input type="text" id="website" placeholder="Enter Your Website" required>
+                </div>
+                <textarea id="message" rows="5" placeholder="Enter Your Message" required></textarea>
+                <button type="submit" class="btn">Contact Me</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <p>Thank you for getting in touch! We appreciate you contacting us.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Mariam Gabelia. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
